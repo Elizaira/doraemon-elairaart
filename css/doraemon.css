@@ -1,0 +1,217 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin:0;
+}
+* {
+    position: absolute;
+}
+body{
+    background-color: #7affdc;
+}
+
+.head {
+    width: 450px;
+    height: 420px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    background-color: #00a2ff;
+
+    box-shadow:inset -10px -10px 5px #036fad;
+}
+
+.face{
+    width: 380px;
+    height: 330px;
+    left: 220px;
+    top: 250px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color:#ffffff;
+}
+
+.eye-group {
+    width: 250px;
+    height: 100px;
+    top: 10px;
+    left: 0;
+  }
+
+.eye-1 {
+background-color: #ffffff;
+width: 110px;
+height: 125px;
+border-radius: 50%;
+top:-70px;
+left:85px;
+border: 1px solid #9d9d9d;
+box-shadow:inset -3px -10px 5px #9d9d9d;
+}
+
+.eye-2 {
+    background-color: #ffffff;
+    width: 110px;
+    height: 125px;
+    border-radius: 50%;
+    top:-70px;
+    left:190px;
+    border: 1px solid #9d9d9d;
+    box-shadow:inset -3px -10px 5px #9d9d9d;
+}
+
+.pupil-1 {
+    width: 40px;
+    height: 55px;
+    top: 30px;
+    left: 60px;
+    /* background-color: #FBD671; */
+    background-color: #0e0e0e;
+    border-radius: 50%;
+    box-shadow:inset -3px -10px 5px #2a2a2a;
+    }
+
+.pupil-2 {
+    width: 40px;
+    height: 55px;
+    top: 30px;
+    left: 5px;
+    /* background-color: #FBD671; */
+    background-color: #0e0e0e;
+    border-radius: 50%;
+    box-shadow:inset -3px -10px 5px #2a2a2a;
+    }
+
+
+.nose {
+    background-color: #c90000;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    top:40px;
+    left:163px;
+
+    box-shadow:inset -10px -10px 5px #8f0000;
+    }
+.mouth {
+    width: 75px;
+    height: 90px;
+    bottom: -60px;
+    left: 153px;
+    top:210px;
+    background-color: #c13d3d;
+    border-radius: 100px 100px 90px 90px; /*left-up right-up left-down right-down*/
+    border: 2px solid #c13d3d;
+    
+    overflow:hidden;
+}
+.tongue {
+    width: 100px;
+    height: 90px;
+    left: 5px;
+    top: 20px;
+    background-color: #ff4e4e;
+   
+    border-radius: 50%;
+  }
+  
+.mouth-line{
+    border-left: 2px solid #0e0e0e;
+    height: 120px;
+    position: absolute;
+    left: 193px;
+    margin-left: -3px;
+    top: 90px;
+}
+/* 
+  .cheek-group {
+    width: 250px;
+    height: 100px;
+    top: 10px;
+    left: 0;
+    z-index:1;
+  } */
+
+.whisker-right-1{
+    width: 130px; 
+    height: 100px;
+    top: 100px;
+    left:20px;  
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 100%/10px 40px 0 0;
+    transform:rotate(10deg);
+}
+.whisker-right-2{
+    width: 130px; 
+    height: 100px;
+    top: 140px;
+    left:18px;  
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 100%/10px 40px 0 0;
+    transform:rotate(2deg);
+}
+.whisker-right-3{
+    width: 130px; 
+    height: 100px;
+    top: 185px;
+    left:20px;  
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 100%/10px 40px 0 0;
+    transform:rotate(-10deg);
+} 
+.whisker-left-1{
+    width: 130px; 
+    height: 100px;
+    top: 100px;
+    left:225px;  
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 100%/30px 10px 0 0;
+    transform:rotate(-10deg);
+}
+.whisker-left-2{
+    width: 130px; 
+    height: 100px;
+    top: 140px;
+    left:230px;  
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 100%/30px 10px 0 0;
+    transform:rotate(-2deg);
+}
+.whisker-left-3{
+    width: 130px; 
+    height: 100px;
+    top: 180px;
+    left:230px;  
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 100%/30px 10px 0 0;
+    transform:rotate(5deg);
+}
+/* .cheek-1 {
+background-color: #c90000;
+width: 85px;
+height: 75px;
+border-radius: 50%;
+top:70px;
+left:40px;
+opacity: 0.2;
+}
+.cheek-2 {
+    background-color: #ffb3b3;
+    width: 85px;
+    height: 75px;
+    border-radius: 50%;
+    top:70px;
+    left:255px;
+    opacity: 0.5;
+    box-shadow:20px 20px 50px #c90000;
+    } */
